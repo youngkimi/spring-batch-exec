@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: batch
+server:
+  port: 8081
+
+storage:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://${STORAGE_DATABASE_CORE_DB_URL}
+    username: ${STORAGE_DATABASE_CORE_DB_USERNAME}
+    password: ${STORAGE_DATABASE_CORE_DB_PASSWORD}
+
