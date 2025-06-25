@@ -1,8 +1,12 @@
 spring:
   application:
     name: batch
+  batch:
+    job.enabled: false
+
 server:
   port: 8081
+
 
 storage:
   datasource:
